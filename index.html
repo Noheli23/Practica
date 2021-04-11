@@ -12,12 +12,17 @@
 </head>
 <body>
 
-    <div class="info">
-        <div class="row">
-                <img src="img/9vhis5ba2pj4ag59omvm7t2t9g.png" alt="">
-                <h1>COVID-19</h1>
+  <div class="container" id="img1">
+    <div class="row ">
+        <div class="col-4  col-sm-2 col-md-2 ">
+            <img src="img/9vhis5ba2pj4ag59omvm7t2t9g.png" >
+        </div>
+        <div class="col-8 col-sm-8 col-md-8 py-4 ">
+            <h1>COVID-19</h1>
         </div>
     </div>
+</div>
+
 
     <nav class="navbar navbar-expand-sm navbar-dark navbar-toggleable-sm sticky-top">
         <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +34,16 @@
     <li class="nav-item active">
       <a class="nav-link" href="#">Home</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item active">
       <a class="nav-link" href="#QueEs">Que es</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item active">
       <a class="nav-link" href="#sintomas">Síntomas</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item active">
       <a class="nav-link " href="#cuidar">Cuidados</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item active">
         <a class="nav-link " href="#colombia">Colombia</a>
       </li>
   </ul>
@@ -47,7 +52,7 @@
 
 <div class="container py-4">
     <div class="row">
-      <div class="col" id="QueEs">
+      <div class="col-12 col-sm-6 col-md-6" id="QueEs">
             <h2>Que es el COVID-19</h2>
             <p>La COVID-19 es la enfermedad infecciosa causada por el
             coronavirus que se ha descubierto más recientemente. Tanto
@@ -56,9 +61,12 @@
             en diciembre de 2019. Actualmente la COVID-19 es una
             pandemia que afecta a muchos países de todo el mundo.</p>
          
-            <button type="button" class="btn btn-info ">Ver mas</button>
+          <div class="section mb-2">
+            <a href="html/info.html#QueEs"><button type="button" class="btn btn-info">Ver mas</button></a>  
+          </div>  
+         
       </div> 
-    <div class="col">
+    <div class="col-12 col-sm-6 col-md-6">
         <img src="https://www.sociedadcirugiaocular.com/images/img-coronavirus-covid19.jpg" alt="">
     </div> 
     </div>
@@ -66,10 +74,10 @@
 
 <div class="container py-2">
     <div class="row">
-        <div class="col">
+        <div class="col-12 col-sm-6 col-md-6">
             <img src="https://www.65ymas.com/uploads/s1/41/61/97/bigstock-lung-virus-infection-and-coron-350084953.jpeg" alt="">
         </div> 
-      <div class="col" id="sintomas">
+      <div class="col-12 col-sm-6 col-md-6" id="sintomas">
           <h2>Cuales son los síntomas</h2>
           <p>Los síntomas más habituales de la COVID-19 son la fiebre, la tos
             seca y el cansancio. Otros síntomas menos frecuentes que
@@ -80,15 +88,17 @@
             manos o los pies. Estos síntomas suelen ser leves y comienzan
             gradualmente. Algunas de las personas infectadas solo
             presentan síntomas levísimos.</p>
-         
-            <button type="button" class="btn btn-info ">Ver mas</button>
+            
+          <div class="section mb-2">
+           <a href="html/info.html#sintomas"><button type="button" class="btn btn-info ">Ver mas</button></a> 
+          </div>
       </div> 
     </div>
 </div>
 
 <div class="container py-2">
     <div class="row">
-      <div class="col" id="cuidar">
+      <div class="col-12 col-sm-6 col-md-6" id="cuidar">
           <h2>Como nos podemos cuidar</h2>
           <p>Practicar la higiene respiratoria y de las manos es importante
             en TODO momento y la mejor forma de protegerse.
@@ -98,10 +108,12 @@
             Dado que es posible que algunas personas infectadas aún no
             presenten síntomas o que sus síntomas sean leves, conviene
             que mantenga una distancia física con todas las personas.</p>
-         
-            <button type="button" class="btn btn-info ">Ver mas</button>
+          
+          <div class="section mb-2">
+           <a href="html/info.html#QueEsCo"><button type="button" class="btn btn-info ">Ver mas</button></a> 
+        </div> 
       </div> 
-    <div class="col">
+    <div class="col-12 col-sm-6 col-md-6">
         <img src="https://www.mysanitas.com/sites/default/files/articles/img-blog-coronavirus_0.jpg" alt="">
     </div> 
     </div>
@@ -109,10 +121,10 @@
 
 <div class="container py-2" >
     <div class="row">
-        <div class="col">
+        <div class="col-12 col-sm-6 col-md-6">
             <img src="https://coronaviruscolombia.gov.co/Covid19/images/comportamientoCovid/bannerCifrasMobile.png" alt="">
         </div> 
-      <div class="col" id="colombia">
+      <div class="col-12 col-sm-6 col-md-6" id="colombia">
           <h2>COVID-19 en Colombia</h2>
           <p>El Ministerio de Salud informó que en el país hay 67.114 casos
             activos de coronavirus, de los que 7.106 son nuevos. Además,
@@ -122,8 +134,8 @@
             862.158 casos se han confirmado en el país, de esos 766.300 se
             han recuperado y 26.844 han muerto.
             </p>
-            <button type="button" class="btn btn-info ">Casos</button>
-            <a href="https://coronaviruscolombia.gov.co/Covid19/estadisticas-covid-19/comportamiento-covid-19.html">
+            <a href="html/casos.html"><button type="button" class="btn btn-info ">Casos</button></a>   
+            <a href="https://coronaviruscolombia.gov.co/Covid19/estadisticas-covid-19/comportamiento-covid-19.html" target="_blank">
                 <button type="button" class="btn btn-info ">Ver mas</button>
             </a>
       </div> 

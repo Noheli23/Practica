@@ -36,47 +36,29 @@
   </div>
 </nav>
 
-<div class="container py-2">
-    <div class="row">
-      <div class="col-12 col-sm-6 col-md-6" id="QueEsCo">
-            <h2>¿Qué es un coronavirus?</h2>
-            <p>Los coronavirus son una extensa familia de virus que pueden
-                causar enfermedades tanto en animales como en humanos. En
-                los humanos, se sabe que varios coronavirus causan infecciones
-                respiratorias que pueden ir desde el resfriado común hasta
-                enfermedades más graves como el síndrome respiratorio de
-                Oriente Medio (MERS) y el síndrome respiratorio agudo severo
-                (SRAS). El coronavirus que se ha descubierto más
-                recientemente causa la enfermedad por coronavirus COVID-19.</p>
-         </div> 
-    <div class="col-12 col-sm-6 col-md-6">
-        <img src="https://www.sociedadcirugiaocular.com/images/img-coronavirus-covid19.jpg" alt="">
-    </div> 
+<div class="container py-3"><h2>Casos positivos en Colombia</h2></div>
+
+<div class="container" id="boton">
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Fecha de notificación</th>
+                    <th>Ciudad de ubicación</th>
+                    <th>Atención</th>
+                    <th>Edad</th>
+                    <th>Sexo</th>
+                    <th>Tipo</th>
+                    <th>Estado</th>
+                    <th>Ubicación recuperado</th>
+                </tr>
+            </thead>
+            <tbody id="res">
+
+            </tbody>
+        </table>
     </div>
 </div>
-<div class="container" id="QueEs">
-    <h2>Que es el COVID-19</h2>
-    <p>La COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto este nuevo
-        virus como la enfermedad que provoca eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de
-        2019. Actualmente la COVID-19 es una pandemia que afecta a muchos países de todo el mundo.</p>
- </div> 
- <div class="container" id="sintomas">
-    <h2>¿Cuáles son los síntomas de la COVID-19?</h2>
-    <p>Los síntomas más habituales de la COVID-19 son la fiebre, la tos seca y el cansancio. Otros síntomas menos frecuentes que
-        afectan a algunos pacientes son los dolores y molestias, la congestión nasal, el dolor de cabeza, la conjuntivitis, el dolor de
-        garganta, la diarrea, la pérdida del gusto o el olfato y las erupciones cutáneas o cambios de color en los dedos de las manos o los
-        pies. Estos síntomas suelen ser leves y comienzan gradualmente. Algunas de las personas infectadas solo presentan síntomas
-        levísimos.
-        La mayoría de las personas (alrededor del 80%) se recuperan de la enfermedad sin necesidad de tratamiento hospitalario.
-        Alrededor de 1 de cada 5 personas que contraen la COVID-19 acaba presentando un cuadro grave y experimenta dificultades
-        para respirar. Las personas mayores y las que padecen afecciones médicas previas como hipertensión arterial, problemas
-        cardiacos o pulmonares, diabetes o cáncer tienen más probabilidades de presentar cuadros graves. Sin embargo, cualquier
-        persona puede contraer la COVID-19 y caer gravemente enferma. Las personas de cualquier edad que tengan fiebre o tos y
-        además respiren con dificultad, sientan dolor u opresión en el pecho o tengan dificultades para hablar o moverse deben solicitar
-        atención médica inmediatamente. Si es posible, se recomienda llamar primero al profesional sanitario o centro médico para que
-        estos remitan al paciente al establecimiento sanitario adecuado.</p>
- </div> 
-
 
     <footer>
         <div class="container" id="texto">
@@ -107,7 +89,7 @@
         </div>
         
     </footer>
-    
+    <script src="../js/datos.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>

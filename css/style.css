@@ -1,3 +1,6 @@
+body p{
+    text-align: justify !important;
+}
 nav{
     background-color: blueviolet !important;
 }
